@@ -1,0 +1,21 @@
+test_add_contact:
+  test_contact001:
+    name: zhangsan
+    phone: 13333333333
+  test_contact002:
+    name: lisi
+    phone: 15555555555
+  test_contact003:
+    name: wangwu
+    phone: 18888888888
+
+test_add_contact1:
+  test_contact001:
+    name: 张三
+    phone: 19999999999
+  test_contact002:
+    name: 李四
+    phone: 17777777777
+  test_contact003:
+    name: 王五
+    phone: 16666666666

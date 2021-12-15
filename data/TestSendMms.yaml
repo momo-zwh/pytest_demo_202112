@@ -1,0 +1,11 @@
+# 一个脚本有三对数据,那么第二层字典就有三个key,且对应的用例编号,每一对数据有两个参数,那么第三层字典就有两个key;
+TestSendMms1:
+  test_send_mms01:
+    phone: 19999999999
+    text: aaaaaaa
+#  test_send_mms02:
+#    phone: 18888888888
+#    text: bbbbbbbbb
+#  test_send_mms03:
+#    phone: 17777777777
+#    text: cccccccc
