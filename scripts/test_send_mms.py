@@ -51,9 +51,8 @@ class TestSendMms:
         # except AssertionError:
         #     pass
 
-
     def test_send2(self):
-        assert 1
+        assert 0
 
     def test_send3(self):
         assert 1
