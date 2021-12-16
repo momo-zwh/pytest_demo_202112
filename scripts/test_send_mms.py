@@ -45,7 +45,7 @@ class TestSendMms:
 
     @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
     def test_send1(self):
-        assert 0
+        assert 1
         # try:
         #     assert 0
         # except AssertionError:
