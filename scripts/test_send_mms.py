@@ -21,13 +21,13 @@ from page.page import Page
 
 class TestSendMms:
 
-    # def setup(self):
-    #     self.driver = init_driver()
-    #     self.page = Page(self.driver)
-    #
-    # def teardown(self):
-    #     sleep(3)
-    #     self.driver.quit()
+    def setup(self):
+        self.driver = init_driver()
+        self.page = Page(self.driver)
+
+    def teardown(self):
+        sleep(3)
+        self.driver.quit()
 
     @pytest.mark.parametrize("args", analyze_file("TestSendMms.yaml", "TestSendMms1"))
     def test_send_mms(self, args):
